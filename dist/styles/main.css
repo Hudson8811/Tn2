@@ -2288,7 +2288,7 @@ body {
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 119.3%;
+  line-height: 100.3%;
 }
 .text__24.text__white {
   color: #FFF;
@@ -2724,6 +2724,9 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 8px;
+}
+.advantage__value__title--span {
+  margin-bottom: 30px;
 }
 .advantage__value__title span {
   position: absolute;
