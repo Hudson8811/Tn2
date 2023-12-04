@@ -202,7 +202,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: 16px 24px;
-    border-radius: 7px;
+    min-height: 52px;
+    min-width: 180px;
+    // border-radius: 7px;
     background: $red;
     color: #FFF;
     text-align: center;
@@ -329,7 +331,7 @@ body {
             position: relative;
             content: "";
             width: 100%;
-            padding-top: 45.62%;
+            padding-top: 43.15%;
             @include max(lg) {
                 padding-top: 75%;  
             } 
@@ -410,9 +412,25 @@ body {
         margin-bottom: 52px;
         max-width: 439px;
     }
+    &__direction {
+        position: absolute;
+        display: block;
+        width: 768px;
+        top: 235px;
+        left: 53%;
+        @media (max-width: 1380px) {
+            display: none;
+        }
+        img {
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+    }
     &__text {
         margin-bottom: 41px;
         max-width: 418px;
+        margin-bottom: 35px;
         &:last-child {
             margin-bottom: 0;
         }
@@ -617,7 +635,6 @@ body {
 
         }
     }
-
 }
 .advantage {
     position: relative;

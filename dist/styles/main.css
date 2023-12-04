@@ -2198,7 +2198,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
-  border-radius: 7px;
+  min-height: 52px;
+  min-width: 180px;
   background: #EF444A;
   color: #FFF;
   text-align: center;
@@ -2324,7 +2325,7 @@ body {
   position: relative;
   content: "";
   width: 100%;
-  padding-top: 45.62%;
+  padding-top: 43.15%;
 }
 @media only screen and (max-width: 1024px) {
   .start-banner__picture::before {
@@ -2416,9 +2417,27 @@ body {
   margin-bottom: 52px;
   max-width: 439px;
 }
+.heat-loss__direction {
+  position: absolute;
+  display: block;
+  width: 768px;
+  top: 235px;
+  left: 53%;
+}
+@media (max-width: 1380px) {
+  .heat-loss__direction {
+    display: none;
+  }
+}
+.heat-loss__direction img {
+  position: relative;
+  width: 100%;
+  display: block;
+}
 .heat-loss__text {
   margin-bottom: 41px;
   max-width: 418px;
+  margin-bottom: 35px;
 }
 .heat-loss__text:last-child {
   margin-bottom: 0;
