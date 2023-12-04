@@ -1,0 +1,21 @@
+/* media */
+$media-list: (
+		'xxs': 375,
+		'xs': 560, /// или 500
+		'sm': 767,
+		'md': 992,  //не используется
+		'lg': 1024,
+		'xl': 1599,
+		'xxl': 1920
+);
+
+/* шрифты */
+$mainFont: 'PTSans', sans-serif;
+
+/* цвета */
+$fonBlack: #242E40;
+$white: #fff;
+$red: #EF444A;
+$grey: #E6E6EE;
+$blue: #237AE9;
+$greyBlack: #242E40;;
