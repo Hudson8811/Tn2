@@ -2724,13 +2724,14 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 8px;
+  line-height: 119.3%;
 }
 .advantage__value__title--span {
   margin-bottom: 30px;
 }
 .advantage__value__title span {
   position: absolute;
-  bottom: -30px;
+  bottom: -32px;
   left: 35px;
   color: #242E40;
   font-size: 60px;
@@ -2858,10 +2859,10 @@ body {
 }
 .questions .accordion__intro .accordion__intro__img {
   position: relative;
-  width: 51px;
-  min-width: 51px;
-  height: 51px;
-  min-height: 51px;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  min-height: 50px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   display: flex;
@@ -3381,6 +3382,7 @@ body {
   padding: 0px;
   height: auto;
   text-decoration: none;
+  padding-bottom: 5px;
 }
 @media only screen and (max-width: 992px) {
   .fabrication__slide {
