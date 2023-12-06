@@ -3051,6 +3051,37 @@ body {
   }
 }
 
+.documents {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.documents .document {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: underline;
+  transition: all 0.3s;
+  margin-bottom: 15px;
+}
+.documents .document svg {
+  margin-right: 5px;
+}
+.documents .document:hover {
+  transition: all 0.3s;
+  text-decoration: none;
+  color: #EF444A;
+}
+
 .text-block {
   position: relative;
   width: 100%;
