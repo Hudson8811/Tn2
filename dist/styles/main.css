@@ -2210,6 +2210,7 @@ body {
   transition: all 0.3s;
   cursor: pointer;
   width: fit-content;
+  text-decoration: none;
 }
 .btn:hover {
   transition: all 0.3s;
