@@ -3111,3 +3111,11 @@ button.swiper-pagination-bullet {
 .main, .cms-page-view .std {
     padding: 0px;
 }
+
+.btn{
+	border-radius:0 !important;
+}
+
+.heat-loss__row{
+	width:auto;
+}
