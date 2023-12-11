@@ -3119,9 +3119,6 @@ button.swiper-pagination-bullet {
 
 
 
-.section {
-	width:auto;
-	max-width:none;
-  margin-left: -58px;
-  margin-right: -58px;
+.main{
+	padding:0;
 }
