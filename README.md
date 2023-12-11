@@ -17,3 +17,5 @@
 }
 
 .title__30{font-size:25px;}
+
+.heat-loss__row{overflow:hidden}
