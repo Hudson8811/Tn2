@@ -2417,11 +2417,11 @@ body {
   z-index: 1;
 }
 .heat-loss__direction {
-  position: absolute;
+  position: relative;
   display: block;
   width: 768px;
-  top: 230px;
-  left: -354px;
+  top: 0px;
+  left: -384px;
 }
 @media only screen and (max-width: 1024px) {
   .heat-loss__direction {
@@ -2438,6 +2438,9 @@ body {
   max-width: 380px;
   margin-bottom: 35px;
   z-index: 1;
+}
+.heat-loss__text--two {
+  margin-top: -180px;
 }
 .heat-loss__text:last-child {
   margin-bottom: 0;

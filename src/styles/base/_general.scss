@@ -413,11 +413,11 @@ body {
         z-index: 1;
     }
     &__direction {
-        position: absolute;
+        position: relative;
         display: block;
         width: 768px;
-        top: 230px;
-        left: -354px;
+        top: 0px;
+        left: -384px;
         @include max(lg) {
             display: none;
         }
@@ -435,6 +435,9 @@ body {
         max-width: 380px;
         margin-bottom: 35px;
         z-index: 1;
+        &--two {
+            margin-top: -180px;
+        }
         &:last-child {
             margin-bottom: 0;
         }
