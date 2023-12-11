@@ -3119,6 +3119,6 @@ button.swiper-pagination-bullet {
 
 
 
-.main{
+.main, .cms-page-view .std{
 	padding:0;
 }
