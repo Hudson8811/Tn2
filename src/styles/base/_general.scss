@@ -437,6 +437,9 @@ body {
         z-index: 1;
         &--two {
             margin-top: -180px;
+            @include max(lg) {
+                margin-top: 0px;
+            }
         }
         &:last-child {
             margin-bottom: 0;
@@ -517,11 +520,11 @@ body {
 
         }
         &--col {
-            .heat-loss__text {
-                @include max(sm) {
-                    margin-bottom: 0;
-                }
-            }
+            // .heat-loss__text {
+            //     // @include max(sm) {
+            //     //     margin-bottom: 0;
+            //     // }
+            // }
         }
     }
     &__advantages {
