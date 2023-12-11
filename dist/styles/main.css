@@ -2615,7 +2615,7 @@ body {
   width: 100%;
   padding: 0px 0px 67px 0px;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantages {
     flex-flow: column nowrap;
   }
@@ -2637,7 +2637,7 @@ body {
 .advantages__col:nth-child(1) {
   width: 76.91%;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantages__col:nth-child(1) {
     width: 100%;
     margin-bottom: 80px;
@@ -2647,7 +2647,7 @@ body {
   width: 23.09%;
   align-items: flex-end;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantages__col:nth-child(2) {
     width: 100%;
     align-items: center;
@@ -2662,7 +2662,7 @@ body {
   width: 100%;
   margin-bottom: 30px;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage {
     padding-left: 160px;
     flex-flow: column nowrap;
@@ -2685,12 +2685,12 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage__col {
     flex-flow: column nowrap;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage__col:first-child {
     margin-bottom: 30px;
   }
@@ -2705,7 +2705,7 @@ body {
   width: 368px;
   margin-right: 20px;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage__value {
     max-width: 100%;
     width: 100%;
@@ -2733,7 +2733,7 @@ body {
   line-height: 119.3%; /* 71.58px */
   text-transform: uppercase;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage__value__title span {
     position: relative;
     bottom: auto;
@@ -2744,7 +2744,7 @@ body {
   margin-right: 45px;
   margin-top: 2px;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage__arrow {
     position: relative;
     display: none;
@@ -2759,7 +2759,7 @@ body {
   min-width: 108px;
   width: 108px;
 }
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1280px) {
   .advantage__icon {
     position: absolute;
     top: 0;

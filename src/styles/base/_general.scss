@@ -600,8 +600,8 @@ body {
     flex-flow: row nowrap; 
     width: 100%;
     padding: 0px 0px 67px 0px;
-    @include max(lg) {
-        flex-flow: column nowrap;
+    @media (max-width: 1280px) {
+        flex-flow: column nowrap;  
     }
     &__section {
         width: 100%;
@@ -618,7 +618,7 @@ body {
         flex-flow: column nowrap;
         &:nth-child(1) {
             width: 76.91%;
-            @include max(lg) {
+            @media (max-width: 1280px) {
                 width: 100%;
                 margin-bottom: 80px;
             }
@@ -626,7 +626,7 @@ body {
         &:nth-child(2) {
             width: 23.09%;
             align-items: flex-end;
-            @include max(lg) {
+            @media (max-width: 1280px) {
                 width: 100%;
                 align-items: center;
             }
@@ -641,7 +641,7 @@ body {
     align-items: flex-start;
     width: 100%;
     margin-bottom: 30px;
-    @include max(lg) {
+    @media (max-width: 1280px) {
         padding-left: 160px;
         flex-flow: column nowrap;
         margin-bottom: 60px;
@@ -660,11 +660,11 @@ body {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-        @include max(lg) {
+        @media (max-width: 1280px) {
             flex-flow: column nowrap;
         }
         &:first-child {
-            @include max(lg) {
+            @media (max-width: 1280px) {
                 margin-bottom: 30px;
             }
         }
@@ -678,7 +678,7 @@ body {
         max-width: 368px;
         width: 368px;
         margin-right: 20px;
-        @include max(lg) {
+        @media (max-width: 1280px) {
             max-width: 100%;
             width: 100%;
         }
@@ -702,7 +702,7 @@ body {
                 font-weight: 700;
                 line-height: 119.3%; /* 71.58px */
                 text-transform: uppercase;
-                @include max(lg) {
+                @media (max-width: 1280px) {
                     position: relative;
                     bottom: auto;
                     left: 20px;
@@ -713,7 +713,7 @@ body {
     &__arrow  {
         margin-right: 45px;
         margin-top: 2px;
-        @include max(lg) {
+        @media (max-width: 1280px) {
             position: relative;
             display: none;
             // transform: rotate(90deg);
@@ -730,7 +730,7 @@ body {
         margin-right: 55px;
         min-width: 108px;
         width: 108px;
-        @include max(lg) {
+        @media (max-width: 1280px) {
             position: absolute;
             top: 0;
             left: -160px;
