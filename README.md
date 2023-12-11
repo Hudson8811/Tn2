@@ -16,4 +16,4 @@
 	z-index:1;
 }
 
-.title__34{font-size:26px;}
+.title__30{font-size:26px;}
