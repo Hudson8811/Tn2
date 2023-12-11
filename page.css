@@ -1,5 +1,4 @@
 
-
 body.compensate-for-scrollbar {
   overflow: hidden;
 }
@@ -827,6 +826,7 @@ body.compensate-for-scrollbar {
   --swiper-wrapper-transition-timing-function: initial;
   */
 }
+
 
 
 .swiper {
@@ -3132,6 +3132,7 @@ button.swiper-pagination-bullet {
   content: url(../img/svg/button-next--black.svg);
 }
 /*# sourceMappingURL=maps/main.css.map */
+
 
 
 .main, .cms-page-view .std { padding: 0px; }
