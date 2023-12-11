@@ -1650,10 +1650,8 @@ button.swiper-pagination-bullet {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -58px;
+  margin-right: -58px;
 }
 
 .site-main {
