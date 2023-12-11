@@ -15,3 +15,5 @@
 .title__34.text__white, .text__24.text__white{
 	z-index:1;
 }
+
+.title__34{font-size:26px;}
