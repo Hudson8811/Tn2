@@ -2414,15 +2414,16 @@ body {
 .heat-loss__title {
   margin-bottom: 52px;
   max-width: 439px;
+  z-index: 1;
 }
 .heat-loss__direction {
   position: absolute;
   display: block;
   width: 768px;
-  top: 235px;
-  left: 53%;
+  top: 230px;
+  left: -354px;
 }
-@media (max-width: 1380px) {
+@media only screen and (max-width: 1024px) {
   .heat-loss__direction {
     display: none;
   }
@@ -2436,6 +2437,7 @@ body {
   margin-bottom: 41px;
   max-width: 380px;
   margin-bottom: 35px;
+  z-index: 1;
 }
 .heat-loss__text:last-child {
   margin-bottom: 0;
@@ -2507,6 +2509,7 @@ body {
   display: block;
   right: 0;
   top: -80px;
+  z-index: 0;
 }
 @media only screen and (max-width: 767px) {
   .heat-loss__balloon {
