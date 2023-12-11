@@ -18,4 +18,6 @@
 
 .title__30{font-size:25px;}
 
+@media only screen and (max-width: 767px){
 .heat-loss__row{overflow:hidden}
+}
