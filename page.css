@@ -3145,6 +3145,8 @@ button.swiper-pagination-bullet {
 
 .title__30{font-size:25px;}
 
+.heat-loss__picture img{position:absolute}
+
 @media only screen and (max-width: 767px){
 .heat-loss__row{overflow:hidden}
 }
