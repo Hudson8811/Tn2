@@ -14,6 +14,10 @@ html{scroll-behavior: smooth;}
 
 .heat-loss__picture img{position:absolute}
 
+@media only screen and (max-width: 1280px){
+.advantage, .advantages{display:block; width:auto;}
+}
+
 @media only screen and (max-width: 767px){
 .heat-loss__row{overflow:hidden}
 }
