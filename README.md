@@ -2,6 +2,8 @@ html{scroll-behavior: smooth;}
 
 .main, .cms-page-view .std { padding: 0px; }
 
+.start-banner__desc__title{line-height:100%;}
+
 .btn{ border-radius:0 !important; }
 
 .heat-loss__row{ width:auto; }
