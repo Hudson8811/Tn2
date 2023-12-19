@@ -3134,6 +3134,7 @@ button.swiper-pagination-bullet {
 /*# sourceMappingURL=maps/main.css.map */
 
 
+html{scroll-behavior: smooth;}
 
 .main, .cms-page-view .std { padding: 0px; }
 

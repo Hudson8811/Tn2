@@ -1,3 +1,5 @@
+html{scroll-behavior: smooth;}
+
 .main, .cms-page-view .std { padding: 0px; }
 
 .btn{ border-radius:0 !important; }
