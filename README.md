@@ -15,3 +15,7 @@ html{scroll-behavior: smooth;}
 @media only screen and (max-width: 767px){
 .heat-loss__row{overflow:hidden}
 }
+
+@media only screen and (max-width: 360px){
+.start-banner__desc__title{font-size:46px;}
+}
