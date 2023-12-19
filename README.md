@@ -18,4 +18,5 @@ html{scroll-behavior: smooth;}
 
 @media only screen and (max-width: 360px){
 .start-banner__desc__title{font-size:46px;}
+.title__30{line-height:107%;}
 }
