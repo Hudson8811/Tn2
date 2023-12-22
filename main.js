@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
             // headerHeight = $('.fixed-header').outerHeight();
             headerHeight = 53;
         }
+
+        let isSmallScreen = window.innerWidth < 768;
+        let scrollOffset = isSmallScreen ? 120 : 0;
+
         const content = accordion.querySelector(".accordion__content");
         accordion.classList.add("accordion__active");
         var accordionActiveHeaight = $(".accordion__active .accordion__content").height();
@@ -30,9 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
             accordionActiveHeaight = 0;
         }
         content.style.maxHeight = content.scrollHeight + "px";
-        $('html, body').stop().animate({ scrollTop:$(accordion).offset().top - accordionActiveHeaight - headerHeight}, 300);
-
-        console.log(accordionActiveHeaight);
+        $('html, body').stop().animate({ scrollTop:$(accordion).offset().top - scrollOffset - accordionActiveHeaight - headerHeight}, 300);
 
     };
 
