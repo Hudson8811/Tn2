@@ -16,6 +16,7 @@ html{scroll-behavior: smooth;}
 
 @media only screen and (max-width: 1280px){
 .advantage, .advantages, .advantages__col{display:block; width:auto;}
+.all-season__title{text-align:left;}
 }
 
 @media only screen and (max-width: 767px){
