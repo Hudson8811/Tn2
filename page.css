@@ -3112,7 +3112,7 @@ html{scroll-behavior: smooth;}
 
 .btn{ border-radius:0 !important; }
 
-.sib-landing-advantage__value__title{font-weight:bold;}
+.sib-landing-advantage__value__title{font-weight:bold !important;}
 
 .heat-loss__row{ width:auto; }
 
