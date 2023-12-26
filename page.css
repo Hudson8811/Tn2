@@ -3112,6 +3112,8 @@ html{scroll-behavior: smooth;}
 
 .btn{ border-radius:0 !important; }
 
+.sib-landing-advantage__value__title{font-weight:bold;}
+
 .heat-loss__row{ width:auto; }
 
 .title__34.text__white, .text__24.text__white{ z-index:1; }

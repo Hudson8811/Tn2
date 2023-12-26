@@ -1,16 +1,18 @@
 html{scroll-behavior: smooth;}
 
-.sib-landing-site-main, .cms-page-view .std { padding: 0px; }
+.main, .sib-landing-site-main, .cms-page-view .std { padding: 0px; }
 
 .start-banner__desc__title{line-height:100%;}
 
 .btn{ border-radius:0 !important; }
 
+.sib-landing-advantage__value__title{font-weight:bold;}
+
 .heat-loss__row{ width:auto; }
 
 .title__34.text__white, .text__24.text__white{ z-index:1; }
 
-.title__30{font-size:25px;}
+.title__30{font-size:25px !important;}
 
 .heat-loss__picture img{position:absolute}
 
@@ -25,5 +27,5 @@ html{scroll-behavior: smooth;}
 
 @media only screen and (max-width: 360px){
 .start-banner__desc__title{font-size:46px;}
-.title__30{line-height:107%;}
+.title__30{line-height:107% !important;}
 }
