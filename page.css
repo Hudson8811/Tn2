@@ -3106,7 +3106,7 @@ button.swiper-pagination-bullet {
 
 html{scroll-behavior: smooth;}
 
-.sib-landing-site-main, .cms-page-view .std { padding: 0px; }
+.main, .sib-landing-site-main, .cms-page-view .std { padding: 0px; }
 
 .start-banner__desc__title{line-height:100%;}
 
