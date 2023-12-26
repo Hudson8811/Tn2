@@ -1,6 +1,6 @@
 html{scroll-behavior: smooth;}
 
-.main, .cms-page-view .std { padding: 0px; }
+.sib-landing-site-main, .cms-page-view .std { padding: 0px; }
 
 .start-banner__desc__title{line-height:100%;}
 
@@ -15,7 +15,7 @@ html{scroll-behavior: smooth;}
 .heat-loss__picture img{position:absolute}
 
 @media only screen and (max-width: 1280px){
-.advantage, .advantages, .advantages__col{display:block; width:auto;}
+.sib-landing-advantage, .sib-landing-advantages, .sib-landing-advantages__col{display:block; width:auto;}
 .all-season__title{text-align:left;}
 }
 
