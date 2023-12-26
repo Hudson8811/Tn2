@@ -16,6 +16,8 @@ html{scroll-behavior: smooth;}
 
 .heat-loss__picture img{position:absolute}
 
+.sib-landing-documents .sib-landing-document svg{flex-shrink:0;}
+
 @media only screen and (max-width: 1280px){
 .sib-landing-advantage, .sib-landing-advantages, .sib-landing-advantages__col{display:block; width:auto;}
 .all-season__title{text-align:left;}
