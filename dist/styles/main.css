@@ -3055,6 +3055,8 @@ body {
   margin-bottom: 15px;
 }
 .sib-landing-documents .sib-landing-document svg {
+  width: 16px;
+  min-width: 16px;
   margin-right: 5px;
 }
 .sib-landing-documents .sib-landing-document:hover {

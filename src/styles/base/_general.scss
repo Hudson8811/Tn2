@@ -1043,6 +1043,8 @@ body {
         transition: all .3s;
         margin-bottom: 15px;
         svg {
+            width: 16px;
+            min-width: 16px;
             margin-right: 5px;
         }
         &:hover {
