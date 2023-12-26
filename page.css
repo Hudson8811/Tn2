@@ -3116,7 +3116,7 @@ html{scroll-behavior: smooth;}
 
 .title__34.text__white, .text__24.text__white{ z-index:1; }
 
-.title__30{font-size:25px;}
+.title__30{font-size:25px !important;}
 
 .heat-loss__picture img{position:absolute}
 
@@ -3131,5 +3131,5 @@ html{scroll-behavior: smooth;}
 
 @media only screen and (max-width: 360px){
 .start-banner__desc__title{font-size:46px;}
-.title__30{line-height:107%;}
+.title__30{line-height:107% !important;}
 }
